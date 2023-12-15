@@ -43,7 +43,7 @@ function App() {
           value={form.name}
         />
         <button>
-          <p className={style.text}>добавить карточку</p>
+          <p className={style.text}>Добавить карточку</p>
         </button>
       </form>
       <div className={style.container}>

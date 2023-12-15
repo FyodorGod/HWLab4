@@ -14,13 +14,13 @@ function Card({cardTitle, cardPrice, cardImage}) {
               fontWeight="bold"
               color="pink.800"
             >
-              Verified &bull; Cape Town
+              Verified &bull;
             </Text>
           </Flex>
           <Text mt={2} fontSize="xl" fontWeight="semibold" lineHeight="short">
             {cardTitle}
           </Text>
-          <Text mt={2}>{`$${cardPrice}/night`}</Text>
+          <Text mt={2}>{`${cardPrice}`}</Text>
         </Box>
       </Center>
     );
